@@ -1,0 +1,83 @@
+    1  mkdir project
+    2  cd project
+    3  pwd
+    4  ls -la
+    5  touch .fileOne fileTwo
+    6  ls
+    7  rm *
+    8  ls
+    9  ls -la
+   10  rm.fileOne
+   11  rm .fileOne
+   12  ls
+   13  git init
+   14  cls
+   15  clear
+   16  git init
+   17  ls -a
+   18  ls -la
+   19  git status
+   20  touch names.txt
+   21  ls
+   22  git status
+   23  git add names.txt 
+   24  git status
+   25  echo "git add names.txt has added the gile to the stsging area.Changes to it will be added to the repo the nesxt time I DO A COMIT
+
+Zgit status
+
+
+
+   26  git commit -m "Initial commit
+
+   27  git commit -m "Initial Commit
+
+names.txt has been added to the git"
+   28  git status
+   29  vi names.txt
+   30  cat names.txt 
+   31  git status
+   32  git add names.txt 
+   33  git commit -m "Incomplete names
+
+Added a name to the names.txt"
+   34  git status
+   35  git log
+   36  git submit --amend
+   37  git submit --ammend
+   38  git submit --amend
+   39  git commit --amend
+   40  git commit --amend -m "incomplete names
+
+added a name"
+   41  git log
+   42  vi names.txt 
+   43  git status
+   44  cat names.txt 
+   45  git add .
+   46  get status
+   47  git status
+   48  vi passwords
+   49  get status
+   50  git status
+   51  vi .gitignore
+   52  git status
+   53  git add.
+   54  git add .
+   55  git status
+   56  git commit -m "Added .gigignore file
+Added a .gitignore
+added another name to names.txt"
+   57  git status
+   58  git log --oneline
+   59  git log --oneline
+   60  git log
+   61  cat names.txt
+   62  git checkout c42257f
+   63  cat names.txt
+   64  git checkout master
+   65  cat names.txt
+   66  vi names.txt
+   67  git diff HEAD
+   68  history.txt > class.txt
+   69  history > class.txt
