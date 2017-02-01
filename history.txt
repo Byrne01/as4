@@ -1,0 +1,33 @@
+    1  cd project/
+    2  ls
+    3  ls -la
+    4  jupyter notebook
+    5  vi .gitignore
+    6  vi .gitignore
+    7  git add .
+    8  git status
+    9* git commit -m "Added juyper norebook
+
+defined average function"[A
+   10  history | grep "git"
+   11  ls
+   12  vi passwords
+   13  vi .gitignore 
+   14  git remote origin
+   15  git remote add origin https://github.com/Byrne01/as4.git
+   16  get add *
+   17  git add *
+   18  git commit
+   19  git commit -m "added work from today
+
+"
+   20  git push
+   21  git log
+   22  get add *
+   23  ge add *
+   24  git add *
+   25  git commit -m "added more work from today
+
+"
+   26  git push
+   27  history > history.txt
