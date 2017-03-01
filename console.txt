@@ -1,0 +1,300 @@
+
+Admin@Admin-PC ~/2017_repo/as4
+$ get commit -m 'this is lab one commit
+>
+> for ca'
+bash: get: command not found
+
+Admin@Admin-PC ~/2017_repo/as4
+$ get commit -m 'this is lab one commit'
+bash: get: command not found
+
+Admin@Admin-PC ~/2017_repo/as4
+$ get commit -m 'this is lab one commit
+>
+> get commit -m 'this is lab one commit
+bash: get: command not found
+
+Admin@Admin-PC ~/2017_repo/as4
+$
+
+Admin@Admin-PC ~/2017_repo/as4
+$ git commit -m 'this is lab one'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <(NULL)>) not allowed
+
+Admin@Admin-PC ~/2017_repo/as4
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Lab1.ipynb
+
+
+Admin@Admin-PC ~/2017_repo/as4
+$ git commit -m 'this is lab one commit'
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <(NULL)>) not allowed
+
+Admin@Admin-PC ~/2017_repo/as4
+$ git config --global user.email "seamusbyrne01@gmail.com"
+
+Admin@Admin-PC ~/2017_repo/as4
+$ git config --global user.name "Byrne01"
+
+Admin@Admin-PC ~/2017_repo/as4
+$ git commit -m 'this is lab one commit'
+[master dbaf011] this is lab one commit
+ 1 file changed, 2194 insertions(+)
+ create mode 100644 Lab1.ipynb
+
+Admin@Admin-PC ~/2017_repo/as4
+$ get push origin master
+bash: get: command not found
+
+Admin@Admin-PC ~/2017_repo/as4
+$ git push origin master
+Username for 'https://github.com': Byrne01
+Password for 'https://Byrne01@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Byrne01/as4.git/'
+
+Admin@Admin-PC ~/2017_repo/as4
+$ git push origin master
+Username for 'https://github.com': Byrne01
+Password for 'https://Byrne01@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 5.14 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/Byrne01/as4.git
+   4e8f345..dbaf011  master -> master
+
+Admin@Admin-PC ~/2017_repo/as4
+$ history
+    1  git status
+    2  git version
+    3  ls
+    4  vi AdvScript/
+    5  pwd
+    6  cd /
+    7  ls
+    8  cd home/
+    9  ls
+   10  mkdir CA_LAB
+   11  GIT INIT
+   12  git inir CA_LAB/
+   13  git init CA_LAB/
+   14  git status
+   15  git status CA_LAB/
+   16  cd CA_LAB/
+   17  git init
+   18  git status
+   19  git status
+   20  cd ..
+   21  ls
+   22  rm -r CA_LAB/
+   23  mkdir labs
+   24  cd ..
+   25  git status
+   26  ls
+   27  cd
+   28  ls
+   29  cd /home
+   30  ls
+   31  cd labs/
+   32  ls
+   33  ls
+   34  git init
+   35  git status
+   36  cd CA_PYTHON/
+   37  LS
+   38  git commit -m "Lab1 revision completed
+
+next is Lab2"
+   39  git init
+   40  ls
+   41  git status
+   42  git commit -m "Lab1 revision completed
+
+next is Lab2"
+   43  git add
+   44  ls
+   45  git add CA_Revision_Lab1.ipynb
+   46  git status
+   47  git commit -m "Lab1 revision completed
+
+next is Lab2"
+   48  git config user.email "seamusbyrne01@gmail.com "
+   49  get config user.name "Seamus byrne"
+   50  git config user.email seamusbyrne01@gmail.com
+   51  git config user.name "Seamus byrne"
+   52  git status
+   53  git commit -m "Lab1 revision completed
+
+next is Lab2"
+   54  git config list
+   55  git -- config list
+   56  git config --list
+   57  git clone htttps://github.com/Byrne01/as4
+   58  git status
+   59  git remote htttps://github.com/Byrne01/as4
+   60* git remote origin
+   61  git status
+   62  git clone htttps://github.com/Byrne01/as4
+   63  git remote origin htttps://github.com/Byrne01/as4
+   64  git remote add origin htttps://github.com/Byrne01/as4.git
+   65  git remote -v
+   66* remote add CA_Revision_Lab1.ipynb  https//githun
+   67  git ststus
+   68  git status
+   69  git remote add CA_Revision htttps://github.com/Byrne01/as4.git
+   70  git push
+   71  git push -u origin master
+   72  git push --all
+   73  git push -u origin --all
+   74  git clone htttps://github.com/Byrne01/as4.git
+   75  git clone https://github.com/Byrne01/as4.git
+   76  ls
+   77  git remote add CA_Revision_Lab1.ipynb https://github.com/Byrne01as4
+   78  git push
+   79  git push -f origin master
+   80  git push github master
+   81  git remote add CA_Revision_Lab1.ipynb https://github.com/Byrne01as4.git
+   82  cd
+   83  ls
+   84  cd /home
+   85  cd
+   86  mkdir 2017_repo
+   87  cd 2017_repo/
+   88  git init
+   89  git status
+   90  cls
+   91  clear
+   92  git status
+   93  git clone https://github.com/Byrne01/as4.git
+   94  ls
+   95  cd as4/
+   96  ls
+   97  cd ..
+   98  ls
+   99  cp Lab1.ipynb ./as4
+  100  cd as4/
+  101  ls
+  102  git add Lab1.ipynb
+  103  git status
+  104  get commit -m this is lab one commit'
+  105  get commit -m 'this is lab one commit
+
+for ca'
+  106  get commit -m 'this is lab one commit'
+  107  get commit -m 'this is lab one commit
+
+get commit -m 'this is lab one commit
+  108*
+  109  git status
+  110  git commit -m 'this is lab one commit'
+  111  git config --global user.email "seamusbyrne01@gmail.com"
+  112  git config --global user.name "Byrne01"
+  113  git commit -m 'this is lab one commit'
+  114  get push origin master
+  115  git push origin master
+  116  git push origin master
+  117  history
+
+Admin@Admin-PC ~/2017_repo/as4
+$ cp history >>> hist.txt
+bash: syntax error near unexpected token `>'
+
+Admin@Admin-PC ~/2017_repo/as4
+$  history  hist.txt
+bash: history: hist.txt: numeric argument required
+
+Admin@Admin-PC ~/2017_repo/as4
+$ history  hist.txt
+bash: history: hist.txt: numeric argument required
+
+Admin@Admin-PC ~/2017_repo/as4
+$ history >  hist.txt
+
+Admin@Admin-PC ~/2017_repo/as4
+$ ls
+class.txt    Lab_5_study.ipynb  Lab6.ipynb  Untitled.ipynb
+hist.txt     Lab1.ipynb         names.txt   Untitled1-Copy1-checkpoint.ipynb
+history.txt  Lab4.ipynb         README.md
+
+Admin@Admin-PC ~/2017_repo/as4
+$ git add hist.txt
+warning: LF will be replaced by CRLF in hist.txt.
+The file will have its original line endings in your working directory.
+
+Admin@Admin-PC ~/2017_repo/as4
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   hist.txt
+
+
+Admin@Admin-PC ~/2017_repo/as4
+$ get commit -m 'these are the commands
+>
+> used in the lab'
+bash: get: command not found
+
+Admin@Admin-PC ~/2017_repo/as4
+$ git commit -m 'these are the commands
+
+used in the lab'
+[master 09311e8] these are the commands
+ 1 file changed, 133 insertions(+)
+ create mode 100644 hist.txt
+
+Admin@Admin-PC ~/2017_repo/as4
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+Admin@Admin-PC ~/2017_repo/as4
+$ git push origin master
+Username for 'https://github.com': Byrne01
+Password for 'https://Byrne01@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.10 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/Byrne01/as4.git
+   dbaf011..09311e8  master -> master
+
+Admin@Admin-PC ~/2017_repo/as4
+$
