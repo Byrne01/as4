@@ -1,0 +1,95 @@
+ 1  scapy
+    2  sudo scapy
+    3  ifconfig
+    4  sudo ifconfig
+    5  cd
+    6  ls
+    7  cd Downloads/
+    8  ls
+    9  sudo pip install juypter
+   10  pip install --upgrade pip
+   11  sudo pip install juypter
+   12  pip3 install --upgrade pip
+   13  python -v
+   14  python
+   15  ls
+   16  cd Downloads/
+   17  ls
+   18  sudo scapy
+   19  cd Downloads/
+   20  ls
+   21  cd
+   22  bash ~/Downloads/Anaconda3-4.3.0-Linux-x86_64.sh
+   23  cd Downloads/
+   24  ls
+   25  bask Anaconda2-4.3.1-Linux-x86_64.sh 
+   26  bash Anaconda2-4.3.1-Linux-x86_64.sh 
+   27  pip install jupyter
+   28  sudo pip install jupyter
+   29  python
+   30  ls
+   31  cd do
+   32  cd Documents/
+   33  ls
+   34  mkdir Scapy
+   35  cd Scapy/
+   36  jupyter notebook
+   37  sudo scapy
+   38  ls
+   39  cd Documents/
+   40  ls
+   41  cd Scapy/
+   42  LS
+   43  ls
+   44  jupyter notebook
+   45  iface
+   46  scapy
+   47  sudo ifconfif
+   48  sudo ifconfig
+   49  sc config npf start= auto
+   50  sudo sc config npf start= auto
+   51  setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' /usr/sbin/dumpcap
+   52  sudo zypper install libcap-progs
+   53  zypper install libcap-progs
+   54  apt-get install libcap2-bin
+   55  sudo apt-get install libcap2-bin
+   56  clear
+   57  groupadd wireshark
+   58  clear
+   59  sudo groupadd wireshark
+   60  usermod -a -G wireshark SB
+   61  sudo usermod -a -G wireshark SB
+   62  sudo apt-get install libcap2-bin
+   63  chgrp wireshark /usr/bin/dumpcap
+   64  clear
+   65  sudo chgrp wireshark /usr/bin/dumpcap
+   66  SUDO chmod 750 /usr/bin/dumpcap
+   67  sudo chmod 750 /usr/bin/dumpcap
+   68  sudo setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap
+   69  sudo getcap /usr/bin/dumpcap
+   70  python
+   71  ls
+   72  sudo juypter notebook
+   73  sudo jupyter notebook
+   74  sudo jupyter notebook--allow-root
+   75  sudo jupyter notebook --allow-root
+   76  ls
+   77  cp Milestone3.ipynb Documents/
+   78  cd Documents/
+   79  ls
+   80  mv Milestone3.ipynb Scapy/
+   81  cd Scapy/
+   82  ls
+   83  sudo scapy
+   84  sudo python
+   85  cd
+   86  pwd
+   87  ls
+   88  pwd
+   89  sudo juypter notebook
+   90  clear
+   91  sudo jupyter notebook
+   92  sudo jupyter notebook --allow-root
+   93  history
+SB@kali:~/Documents/Scapy$ 
+
